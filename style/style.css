@@ -167,9 +167,20 @@ body{
     flex-direction: column;
 }
 
+.text-container-3{
+    height: 100%;
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+}
+
 .text-cont-title{
     font-weight: bold;
     font-size: 50px;
+}
+
+.pad-bot{
+    padding-bottom: 20px;
 }
 
 .img-main{
