@@ -132,13 +132,21 @@ body{
     font-size: 17px;
 }
 
+.font-p{
+    font-size: 20px;
+    word-spacing: 4px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
 .elements-container{
     width: 80%;
-    height: 400px;
+    height: 500px;
 
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: start;
 
     margin-top: 100px;
     margin-bottom: 100px;
@@ -146,7 +154,7 @@ body{
 
 .text-container{
     height: 100%;
-    max-width: 200px;
+    max-width: 370px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -154,13 +162,12 @@ body{
 
 .text-cont-title{
     font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 50px;
 }
 
 .img-main{
-    width: 65%;
-    margin-top: -28px;
+    margin-top: -33px;
+    margin-left: -33px;
 }
 
 .wave{
