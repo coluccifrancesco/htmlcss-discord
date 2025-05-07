@@ -21,6 +21,8 @@ body{
     --button-blue-big-main: #8EA0E1;
 
     --text-footer-color: #6C82CE;
+
+    --main-bg-color-second: #F6F6F6;
 }
 
 /* example:   background-color: var(--header-bg-color: #ADD8E6) */
@@ -32,6 +34,8 @@ body{
     min-width: 85%;
 }
 
+/*
+
 .debug{
     border: 1px dashed black;
 }
@@ -40,6 +44,8 @@ body{
 .debug-white{
     border: 1px dashed white;
 }
+
+*/
 
 .container-main-height-px{
     height: 500px;
@@ -331,8 +337,7 @@ header{
     background-color: var(--button-blue-big-main);
     border: 0;
     border-radius: 30px;
-    color: var(--main-bg-color-first);
-    color: var(--main-bg-color-first);
+    color: white;
     font-size: 20px;
     margin-top: 40px;
     margin-bottom: 140px;
