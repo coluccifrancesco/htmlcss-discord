@@ -59,6 +59,10 @@ body{
     align-items: center;
 }
 
+.hero-p-container{
+    max-width: 90%;
+}
+
 .container-blue{
     background-color: var(--main-container-first-color-);
     width: 60%;
@@ -181,6 +185,10 @@ body{
 
 .pad-bot{
     padding-bottom: 20px;
+}
+
+.pad-container{
+    padding-top: 110px;
 }
 
 .img-main{
