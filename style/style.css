@@ -160,6 +160,13 @@ body{
     justify-content: space-between;
 }
 
+.text-container-2{
+    height: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
 .text-cont-title{
     font-weight: bold;
     font-size: 50px;
@@ -167,6 +174,11 @@ body{
 
 .img-main{
     margin-top: -33px;
+    margin-left: -33px;
+}
+
+.img-main-2{
+    margin-top: -25px;
     margin-left: -33px;
 }
 
