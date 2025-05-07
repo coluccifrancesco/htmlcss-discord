@@ -1,3 +1,4 @@
+/* #region general */
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 
 body{
     min-width: 1200px;  /* solo per adesso */
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root{
@@ -32,11 +33,12 @@ body{
 }
 
 /* example:   background-color: var(--header-bg-color: #ADD8E6) */
+/* #endregion utilities */
 
 
-/* jolly classes */
+/* #region utilities */
 .container-width{
-    min-width: 65%;
+    min-width: 80%;
 }
 
 .debug{
@@ -102,8 +104,8 @@ body{
 }
 
 .big-bold{
+    font-size: 30;
     font-weight: bold;
-    font-size: 20;
 }
 
 .btn-white{
@@ -127,17 +129,17 @@ body{
     align-items: center;
 }
 
-.font-20{
-    font-size: 20px;
+.font-18{
+    font-size: 18px;
 }
+/* #endregion utilities */
 
 
-/* header */
+/* #region header */
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: var(--header-bg-color);
-    height: 75px;
 }
 
 .header-height{
@@ -150,37 +152,37 @@ header{
     align-items: center;
     background-color: var(--header-sections-bg-color);
     margin:  auto;
+    font-size: 14px;
 }
 
 .header-elements-container .left-section{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 28%;
+    width: 25%;
     padding-left: 10px;
 }
 
 .header-elements-container .middle-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 45%;
-    gap: 10px;
+    width: 50%;
 }
 
 .header-elements-container .right-section{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 28%;
+    width: 25%;
     padding-right: 10px;
 }
+/* #endregion header */
 
 
-/* Main */
+/* #region main */
 .hero-container{
-    width: 100%;
-    height: 550px;
+    height: 440px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,9 +226,10 @@ header{
     padding-bottom: 6%;
     height: 100%;
 }
+/* #endregion main */
 
 
-/* footer */
+/* #region footer */
 .container-footer{
     height: 110px;
     border-top: 1px solid white ;
@@ -249,3 +252,4 @@ header{
     background-color: var(--footer-bottom-elements-color);
     padding: 5px 10px;
 }
+/* #endregion footer */
