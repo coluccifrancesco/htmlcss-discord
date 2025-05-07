@@ -103,17 +103,16 @@ body{
     color: white;
 }
 
-.big-bold{
-    font-size: 30;
+.font-bold{
+    font-size: 43px;
     font-weight: bold;
 }
 
 .btn-white{
-    font-family: sans-serif;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 17px;
-    padding-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 30px;
     border: none;
 }
@@ -129,8 +128,8 @@ body{
     align-items: center;
 }
 
-.font-18{
-    font-size: 18px;
+.font-17{
+    font-size: 17px;
 }
 /* #endregion utilities */
 
@@ -143,7 +142,7 @@ header{
 }
 
 .header-height{
-    height: 55px;
+    padding-top: 30px;
 }
 
 .header-elements-container{
@@ -183,9 +182,6 @@ header{
 /* #region main */
 .hero-container{
     height: 440px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url(../img2/jumbo.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -198,12 +194,12 @@ header{
 
 .flex-btn{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .text-jumbo{
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
