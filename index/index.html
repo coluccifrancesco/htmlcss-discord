@@ -12,12 +12,12 @@
     <body>
         
         <header>
-            <div class="header-elements-container  container-width   header-dimensions">
-                <div class="left-section  header-height">
+            <div class="header-elements-container  container-width   header-dimensions  debug">
+                <div class="left-section  header-height  debug">
                     <img src="../img2/logo.svg" alt="Logo Discord" class="cursor-p">
                 </div>
                 
-                <div class="middle-section  header-height  font-white">
+                <div class="middle-section  header-height  font-white  debug">
                     <a class="cursor-p">Scarica</a>
                     <a class="cursor-p">Perché Discord</a>
                     <a class="cursor-p">Nitro</a>
@@ -25,7 +25,7 @@
                     <a class="cursor-p">Assistenza</a>
                 </div>
                
-                <div class="right-section  header-height">
+                <div class="right-section  header-height  debug">
                     <button class="btn-white  cursor-p" style="height: px;">Accedi</button>
                 </div>
             </div>
@@ -33,16 +33,17 @@
        
         <main>
 
-            <section class="hero-container  main-container-flex">
-                <div class="text-flex">   <!-- controlla i container, prendi due piccioni con una fava -->
-                   
-                    <p class="font-white" style="font-size: 40px; font-weight: bold;">Il tuo posto per parlare</p>
-                    <p class="text-jumbo font-white  font-17">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica <br> mondiale, o semplicemente un grupo di amici che vuole passare tempo <br> assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
-                   
-                    <div class="flex-btn  cursor" style="width: 440px;">
-                        <button class="btn-white  font-17  cursor-p">&DownArrow; Scarica per Mac</button>
-                        <button class="btn-white  font-17  cursor-p  btn-bw">Apri Discord nel tuo browser</button>      
-                    </div>
+            <section class="hero-container  main-container-flex  ">
+                <div class="text-flex "> 
+                    <div class="container-jumbo  text-flex  debug">   
+                        <p class="font-white  debug  hero-header">Il tuo posto per parlare</p>
+                        <p class="text-jumbo font-white  font-17  debug">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica <br> mondiale, o semplicemente un grupo di amici che vuole passare tempo <br> assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
+                       
+                        <div class="flex-btn  cursor  debug" style="width: 460px;">
+                            <button class="btn-white  font-17  cursor-p">&DownArrow; Scarica per Mac</button>
+                            <button class="btn-white  font-17  cursor-p  btn-bw">Apri Discord nel tuo browser</button>      
+                        </div>
+                    </div> 
                 </div>
             </section>
         
@@ -52,7 +53,7 @@
                     <img src="../img2/item1.svg"  alt="Immagine esempio chat"  class="img-main  debug"></img>
                     
                 
-                    <div class="text-container debug">
+                    <div class="text-container  debug"  style="justify-content: space-between;">
                         <p class="text-cont-title">Un luogo a invito con tutto lo spazio necessario per parlare</p>
                         <p class="font-p">I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlae della tua giornata senza intasare una chat di gruppo</p>
                     </div>
@@ -83,7 +84,7 @@
                     <img src="../img2/item3.svg"  alt="Immagine esempio chat"  class="img-main  debug"></img>
                     
                 
-                    <div class="text-container-3 debug">
+                    <div class="text-container debug">
                         <p class="text-cont-title  pad-bot">Da pochi a un fandom</p>
                         <p class="font-p">Dai inizio ad una community di qualsisi dimensione con strumenti di mdoerazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.</p>
                     </div>
@@ -93,18 +94,31 @@
 
             <div class="wave"></div>
 
-            <section class="grey  main-container-flex  pad-container  debug">
+            <section class="grey  main-container-flex  pad-top  debug">
                 
-                <div class="text-flex  hero-p-container  debug">
-                   
-                    <p style="font-size: 40px; font-weight: bold;">Tecnologia affidabile per tenersi in contatto</p>
-                    <p class="text-jumbo  font-17">Video e audio a bassa latenza ti fanno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o roiunitevi in una sessione di disegno con la codnivsione schermo.</p>
-
+                <div class="text-flex  text-hero-last  debug">                 
+                    <p class="last-head  debug">Tecnologia affidabile per tenersi in contatto</p>
+                    <p class="text-jumbo  font-17">Video e audio a bassa latenza ti fanno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda <br>gli amici giocare in streaming, o roiunitevi in una sessione di disegno con la codnivsione schermo.</p>
                 </div>
-            
+
+            </section>
+
+            <section>
+                
+                <div class="grey  debug  main-container-flex" style="flex-direction: column;">
+                    <img src="../img2/item4-big.svg"  alt="Call Example"  class="big-container-main">
+                    
+                    <div class="big-contianer-main  text-flex  debug">
+                        <img src="../img2/stars.svg"  alt="Background Decoration"  class="img-stars">
+
+                        <p class="big-main-txt">Pronto a iniziare la tua avventura?</p>
+    
+                        <button class="btn-big-main cursor-p">&DownArrow; Scarica per Mac</button>
+                    </div>
+                </div>
+
             </section>
         </main>
-
 
         <footer>
             <div class="bigger-container-height  main-container-flex  container-black   container-width">
