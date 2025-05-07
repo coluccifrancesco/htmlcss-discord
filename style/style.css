@@ -408,15 +408,28 @@ ul > li{
     height: 400px;
 }
 
-.light-green-flex{
+.last-footer-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
+
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-bottom: 80px;
 }
 
-.container-light-green p,
-.container-light-green button{
-    background-color: var(--footer-bottom-elements-color);
-    padding: 5px 10px;
+.btn-sign{
+    background-color: var(--button-blue-big-main);
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    cursor: pointer;
 }
 /* #endregion footer */
