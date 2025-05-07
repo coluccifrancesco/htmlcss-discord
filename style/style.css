@@ -132,15 +132,16 @@ body{
     font-size: 17px;
 }
 
-.section-container{
-    padding: 100px 10% 100px 10%;
-}
-
 .elements-container{
+    width: 80%;
     height: 400px;
+
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .text-container{
@@ -203,8 +204,9 @@ header{
     background-color: var(--header-bg-color);
 }
 
-.header-height{
+.header-dimensions{
     padding-top: 30px;
+    width: 80%;
 }
 
 .header-elements-container{
