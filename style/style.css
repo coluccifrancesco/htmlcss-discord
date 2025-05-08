@@ -16,7 +16,7 @@ body{
 
     --main-heroimg-bg-color: #00008B;
 
-    --main-third-and-footer-bg-color-: #23272A;
+    --main-third-and-footer-bg-color: #23272A;
     
     --button-blue-big-main: #8EA0E1;
 
@@ -72,7 +72,7 @@ body{
 }
 
 .container-black{
-    background-color: var(--main-third-and-footer-bg-color-);
+    background-color: var(--main-third-and-footer-bg-color);
 }
 
 .white-container{
@@ -175,10 +175,6 @@ svg{
     font-size: 50px;
 }
 
-.big-main-txt{
-    
-}
-
 .pad-bot{
     padding-bottom: 20px;
 }
@@ -193,6 +189,7 @@ svg{
 }
 
 .img-main-2{
+    max-width: 62%;
     margin-top: -25px;
     margin-left: -33px;
 }
@@ -277,13 +274,20 @@ header{
     width: 30%;
     padding-right: 25px;
 }
+
+.first-head{
+    font-size: 47px; 
+    font-weight: bold;
+    margin-bottom: -30px;
+}
 /* #endregion header */
 
 
 /* #region main */
 .hero-container{
     padding-top: 150px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
     max-height: 450px;
     background-image: url(../img2/jumbo.png);
     background-repeat: no-repeat;
@@ -311,17 +315,11 @@ header{
     margin-top: 55px;
     margin-bottom: 25px;
     text-align: center;
-    width:100%
+    max-width:92%
 }
 
 .container-huge-main-height-px{
     height: 1000px;
-}
-
-.container-green{
-    background-color: var(--main-container-third-color);
-    width: 100%;
-    height: 98%;
 }
 
 .text-hero-last{
@@ -329,7 +327,7 @@ header{
 }
 
 .last-head{
-    font-size: 47px; 
+    font-size: 48px; 
     font-weight: bold;
     margin-bottom: -30px;
 }
