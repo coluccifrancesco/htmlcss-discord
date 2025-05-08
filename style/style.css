@@ -99,6 +99,8 @@ body{
     padding-right: 16px;
     border-radius: 30px;
     border: none;
+    display: flex;
+    align-items: center;
 }
 
 .btn-bw{
@@ -150,6 +152,12 @@ svg{
 
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.svg-arrow{
+    padding-right: 8px;
+    height: 18px; 
+    fill:black;
 }
 
 .big-container-main{
@@ -353,8 +361,16 @@ header{
 
     padding-top: 18px;
     padding-bottom: 18px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    align-items: center;
+}
+
+.svg-arrow2{
+    height: 20px;
+    padding-right: 10px;
 }
 
 .list-style{
