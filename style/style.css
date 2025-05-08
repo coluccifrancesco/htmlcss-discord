@@ -34,7 +34,7 @@ body{
     min-width: 85%;
 }
 
-/*
+
 
 .debug{
     border: 1px dashed black;
@@ -45,7 +45,7 @@ body{
     border: 1px dashed white;
 }
 
-*/
+
 
 .container-main-height-px{
     height: 500px;
@@ -56,7 +56,8 @@ body{
 }
 
 .container-jumbo{
-    height: 350px;
+    min-width: 750px;
+    max-height: 330px;
     margin-top: -50px;
 }
 
@@ -133,12 +134,13 @@ svg{
 }
 
 .hero-header{
+    min-width: 600px;
     font-size: 55px; 
     font-weight: bold;
 }
 
 .elements-container{
-    width: 80%;
+    min-width: 80%;
     height: 500px;
 
     display: flex;
@@ -280,7 +282,9 @@ header{
 
 /* #region main */
 .hero-container{
-    height: 535px;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    max-height: 450px;
     background-image: url(../img2/jumbo.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -297,6 +301,13 @@ header{
 }
 
 .text-jumbo{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    min-width: 750px;
+}
+
+.text-jumbo2{
     margin-top: 55px;
     margin-bottom: 25px;
     text-align: center;
@@ -314,7 +325,7 @@ header{
 }
 
 .text-hero-last{
-    width: 80%;
+    min-width: 80%;
 }
 
 .last-head{
@@ -324,7 +335,7 @@ header{
 }
 
 .img-stars{
-    width: 110%;
+    width: 60%;
     margin-bottom: -10px;
 }
 
